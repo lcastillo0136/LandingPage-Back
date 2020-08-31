@@ -1,0 +1,28 @@
+{
+  "name": "landingpage-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "port": "8080",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start http://localhost:4000/doctors & nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcastillo0136/LandingPage-Back.git"
+  },
+  "author": "lcastillo0136",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcastillo0136/LandingPage-Back/issues"
+  },
+  "homepage": "https://github.com/lcastillo0136/LandingPage-Back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3"
+  }
+}

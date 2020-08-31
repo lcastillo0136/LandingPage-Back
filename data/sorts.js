@@ -1,0 +1,1 @@
+module.exports = ['closest', 'best_rated', 'oldest', 'youngest', 'most_viewed']
